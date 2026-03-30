@@ -60,3 +60,19 @@ metaInfo.innerText += ' | Estimasi: ' + estimasiMenit + ' menit baca';
 
 
 // Soal B3
+const input = document.getElementById('filter-kategori');
+const items = document.querySelectorAll('.kategori ul li');
+
+input.addEventListener('input', function() {
+  const keyword = input.value.toLowerCase();
+
+  items.forEach(function(item) {
+    const text = item.innerText.toLowerCase();
+
+    if (text.includes(keyword)) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+});

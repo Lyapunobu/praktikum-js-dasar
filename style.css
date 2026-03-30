@@ -150,6 +150,16 @@ nav a.active {
   color: #3b82f6;
 }
 
+#filter-kategori {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+}
+
 footer {
   background-color: #111827;
   color: #6b7280;
