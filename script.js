@@ -44,3 +44,16 @@ navLinks.forEach(function(link) {
 
 
 // Soal B2
+let semuaTeks = "";
+
+paragraphs.forEach(function(p) {
+  semuaTeks += p.innerText + " ";
+});
+
+const jumlahKata = semuaTeks.split(' ').length;
+
+const estimasiMenit = Math.ceil(jumlahKata / 200);
+
+const metaInfo = document.querySelector('.meta-info');
+
+metaInfo.innerText += ' | Estimasi: ' + estimasiMenit + ' menit baca';
