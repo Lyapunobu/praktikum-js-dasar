@@ -57,3 +57,6 @@ const estimasiMenit = Math.ceil(jumlahKata / 200);
 const metaInfo = document.querySelector('.meta-info');
 
 metaInfo.innerText += ' | Estimasi: ' + estimasiMenit + ' menit baca';
+
+
+// Soal B3
