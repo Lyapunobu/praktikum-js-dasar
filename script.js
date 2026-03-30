@@ -1,4 +1,4 @@
-// Soal A!
+// Soal A1
 const navLinks = document.querySelectorAll('nav a');
 
 
@@ -9,4 +9,9 @@ navLinks.forEach(function(link) {
   });
 });
 
+
+// Soal A2
+const judul = document.querySelector('h1');
+
+judul.innerText = 'AI dan Masa Depan Teknologi Indonesia';
 
