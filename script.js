@@ -13,5 +13,5 @@ navLinks.forEach(function(link) {
 // Soal A2
 const judul = document.querySelector('h1');
 
-judul.innerText = 'AI dan Masa Depan Teknologi Indonesia';
+judul.innerText = 'AI dan Masa Depan Teknologi Indonesia'; // ??? script jalan secara normal dan tidak ada error di console sebelum didebug
 
