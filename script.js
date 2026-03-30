@@ -30,3 +30,14 @@ console.log('Total kata: ' + totalKata);
 
 
 // Soal B1
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    navLinks.forEach(function(l) {
+      l.classList.remove('active');
+    });
+
+    link.classList.add('active');
+  });
+});
