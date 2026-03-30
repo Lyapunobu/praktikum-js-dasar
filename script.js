@@ -25,3 +25,8 @@ paragraphs.forEach(function(p) {
 });
 
 console.log('Total kata: ' + totalKata);
+
+
+
+
+// Soal B1
