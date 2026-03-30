@@ -21,7 +21,7 @@ let totalKata = 0;
 
 paragraphs.forEach(function(p) {
   const kata = p.innerText.split(' ');
-  totalKata = kata.length;
+  totalKata += kata.length; // FIX - mengganti logika operator dari '=' menjadi '+='. Operator '=' terus menimpa nilai totalKata setiap loop diulang, sehingga diganti menjadi "+=" agar nilai totalKata terus ditambahkan pada setiap look.
 });
 
 console.log('Total kata: ' + totalKata);
